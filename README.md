@@ -1,8 +1,8 @@
 # MORFEE
 
-**MORFEE** (**Mutation on Open Reading FramE annotation**) is a tool
-(R package) that, from a VCF file, detects and annotates single nucleotide
-variants creating TIS codons, STOP codons and deleting STOP codons.
+*MORFEE** (**Mutation on Open Reading FramE annotation**) is a tool that detects and annotates single nucleotide variants (SNVs) (i) creating canonical (ATG) and non-canonical Translation Initiation Sites (TIS); (ii) creating Stop codons (TAA, TAG and TGA), and ; (iii) deleting Stop codons in the 5’UTR (uTIS, uStop and New_uStop), the coding sequence (CDS, intTIS, intStop and New_intStop), and the 3’UTR (dTIS, dStop and New_dStop).
+
+MORFEE is an R package that could be applied on any VCF file.
 
 MORFEE algorithm is written in R language and can run on all operating
 systems which have an R interpreter (including Linux, macOS and Windows).
